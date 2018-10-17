@@ -1,27 +1,30 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
 }
-body > .container{
-    padding: 60px 15px 0;
+
+body>.container {
+	padding: 60px 15px 0;
 }
 
 /*https://stackoverflow.com/questions/351058/space-between-two-rows-in-a-table*/
 tr.cell_padding>td {
-    padding-bottom: 1em;
-    padding-right: 2em;
+	padding-bottom: 1em;
+	padding-right: 2em;
 }
